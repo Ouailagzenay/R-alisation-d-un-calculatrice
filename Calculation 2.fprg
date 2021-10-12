@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="solicode"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-10-12 02:50:06 PM"/>
+        <attribute name="created" value="c29saWNvZGU7REVTS1RPUC0yUTcxN1MwOzIwMjEtMTAtMTI7MDE6MDY6NTYgUE07MzEyNQ=="/>
+        <attribute name="edited" value="c29saWNvZGU7REVTS1RPUC0yUTcxN1MwOzIwMjEtMTAtMTI7MDI6NTA6MDYgUE07MTszMjI4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x" type="Integer" array="False" size=""/>
+            <declare name="y" type="Integer" array="False" size=""/>
+            <declare name="op&#233;ration" type="String" array="False" size=""/>
+            <declare name="r&#233;sultat" type="Integer" array="False" size=""/>
+            <input variable="x"/>
+            <input variable="y"/>
+            <input variable="op&#233;ration"/>
+            <if expression="op&#233;ration ==&quot;+&quot;">
+                <then>
+                    <assign variable="r&#233;sultat" expression="x + y"/>
+                    <output expression="r&#233;sultat" newline="True"/>
+                </then>
+                <else>
+                    <if expression="op&#233;ration ==&quot;-&quot;">
+                        <then>
+                            <assign variable="r&#233;sultat" expression="x - y"/>
+                            <output expression="&quot;r&#233;sultat&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="op&#233;ration ==&quot;/&quot;">
+                                <then>
+                                    <assign variable="r&#233;sultat" expression="x/y"/>
+                                    <output expression="&quot;r&#233;sultat&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="op&#233;ration ==&quot;*&quot;">
+                                        <then>
+                                            <assign variable="r&#233;sultat" expression="x*y"/>
+                                            <output expression="&quot;r&#233;sultat&quot;" newline="True"/>
+                                        </then>
+                                        <else/>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
