@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="solicode"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-10-12 12:58:43 PM"/>
+        <attribute name="created" value="c29saWNvZGU7REVTS1RPUC0yUTcxN1MwOzIwMjEtMTAtMTI7MTI6Mzk6NTUgUE07MzEzMg=="/>
+        <attribute name="edited" value="c29saWNvZGU7REVTS1RPUC0yUTcxN1MwOzIwMjEtMTAtMTI7MTI6NTg6NDMgUE07MTszMjM4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="X" type="Integer" array="False" size=""/>
+            <declare name="Y" type="Integer" array="False" size=""/>
+            <declare name="MAX" type="Integer" array="False" size=""/>
+            <input variable="X"/>
+            <input variable="Y"/>
+            <if expression="X &gt; Y">
+                <then>
+                    <assign variable="MAX" expression="X"/>
+                </then>
+                <else>
+                    <assign variable="MAX" expression="Y"/>
+                </else>
+            </if>
+            <output expression="max" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

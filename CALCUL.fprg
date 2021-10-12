@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="solicode"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-10-12 12:39:51 PM"/>
+        <attribute name="created" value="c29saWNvZGU7REVTS1RPUC0yUTcxN1MwOzIwMjEtMTAtMTI7MTA6NTk6NDIgQU07MzExMw=="/>
+        <attribute name="edited" value="c29saWNvZGU7REVTS1RPUC0yUTcxN1MwOzIwMjEtMTAtMTI7MTI6Mzk6NTEgUE07MTszMjM2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x" type="Integer" array="False" size=""/>
+            <declare name="y" type="Integer" array="False" size=""/>
+            <output expression="&quot;entre x&quot;" newline="True"/>
+            <input variable="x"/>
+            <output expression="&quot;entre y&quot;" newline="True"/>
+            <input variable="y"/>
+            <output expression="Y+X" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
